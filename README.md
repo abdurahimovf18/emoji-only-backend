@@ -5,13 +5,15 @@ It is a FastAPI-based project that collects browser information sent from the fr
 The information includes IP address, OS, platform, and other browser-level details.
 
 ## how to run
+to run this repository, you will need `uv` which you can install from internet using
+official documentation.
 
 1. Clone the GitHub repository.
 2. Enter the root directory where you will see the `src/` folder and `pyproject.toml` file.
 3. Run the application using:
 
 ```bash
-uv src.main:app
+uv run uvicorn src.main:app
 ```
 
 ## project details
