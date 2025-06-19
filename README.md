@@ -32,6 +32,6 @@ uv run uvicorn src.main:app
 
 This is a one-time educational project. No persistent backend database is used. The public emoji API may become unavailable in the future.
 
-## license
-
-MIT
+## See also
+When users open this website on frontend, there were no api call. I don't know why is that happening. 
+But it is definently a bug.
